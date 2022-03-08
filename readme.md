@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/FoonkG/better-electron-webpack">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Better Electron Webpack</h3>

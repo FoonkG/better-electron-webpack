@@ -1,0 +1,48 @@
+{
+	"name": "better-electron-webpack",
+	"description": "A preconfigured webpack package made for Electron projects",
+	"version": "1.1.18",
+	"author": "FoonkG",
+	"main": "main.js",
+	"bin": {
+		"better-electron-webpack": "./cli.js"
+	},
+	"engines": {
+		"node": ">=10.0"
+	},
+	"files": [
+		"**/*.js"
+	],
+	"dependencies": {
+		"@svgr/webpack": "^5.5.0",
+		"async-exit-hook": "^2.0.1",
+		"babel-preset-minify": "^0.5.1",
+		"bluebird": "^3.7.2",
+		"chalk": "^4.1.1",
+		"crocket": "^0.9.11",
+		"css-loader": "^5.2.4",
+		"electron-webpack-js": "~2.4.1",
+		"file-loader": "^6.0.0",
+		"fs-extra": "^9.0.0",
+		"get-port": "^5.1.1",
+		"html-loader": "^2.1.2",
+		"html-webpack-plugin": "^5.3.1",
+		"javascript-obfuscator": "^2.12.0",
+		"lazy-val": "^1.0.4",
+		"mini-css-extract-plugin": "^1.6.0",
+		"read-config-file": "^6.1.0",
+		"style-loader": "^2.0.0",
+		"terser-webpack-plugin": "^5.1.1",
+		"ts-loader": "^8.2.0",
+		"url-loader": "^4.0.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.10.3",
+		"webpack-merge": "^5.7.3",
+		"webpack-obfuscator": "^3.3.0",
+		"yargs": "^16.2.0"
+	},
+	"peerDependencies": {
+		"webpack": "^5.24.3",
+		"typescript": "^4.2.3"
+	}
+}
